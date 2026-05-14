@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Pink Care",
+    "slug": "pinkcare",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.pinkcare.app",
+      "versionCode": 2,
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/logo.png",
+        "monochromeImage": "./assets/images/logo.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "pinkcare",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9eeb8ff3-2c70-4229-8204-62c68b3f15cc"
+      }
+    },
+    "owner": "gayavenu"
+  }
+}
